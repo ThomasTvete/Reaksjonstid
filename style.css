@@ -1,0 +1,28 @@
+.lampFrame {
+    display: grid;
+    grid-template-columns: repeat(5, 10em);
+    grid-template-rows: repeat(5, 10em);
+    grid-row-gap: 3em;
+    grid-column-gap: 3em;
+}
+
+.lightOn {
+    background-color: yellow;
+    
+}
+
+.lamp {
+    background-color: red;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+}
+
+.scoreFrame{
+    display: flex;
+}
+
+.score{
+    font-weight: bolder;
+    font-size: 3em;
+}
